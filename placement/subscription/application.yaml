@@ -3,7 +3,7 @@
     kind: Application
     metadata:
       name: nginx-placement
-      namespace: nginx
+      namespace: rhacm-demo-placement-nginx
     spec:
       selector:
         matchLabels:

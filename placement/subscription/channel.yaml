@@ -3,9 +3,9 @@ apiVersion: apps.open-cluster-management.io/v1
 kind: Channel
 metadata:
   name: gitops
-  namespace: demo
+  namespace: rhacm-demo-placement
 spec:
   type: GitHub
-  pathname: https://github.com/open-cluster-management/demo-subscription-gitops.git
+  pathname: https://github.com/alezzandro/demo-subscription-gitops.git
   #secretRef:
   #  name: my-github-secret
